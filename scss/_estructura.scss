@@ -1,0 +1,67 @@
+$aalto-1: 100px;
+$aalto-2: 200px;
+$aalto-3: 300px;
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color:$fondo_negro;
+    color: $fuente_bco;
+    padding: $pd-5;
+
+}
+
+main{
+ background-color: $fondo_rojo;
+ color:$fuente_bco;
+ padding: $pd-5;
+}
+
+footer{
+    background-color: $fondo_negro;
+    color: $fuente_bco;
+    padding: $pd-5;
+}
+
+ul{
+    list-style-type: none;
+    width: 100%;
+    padding: $pd-1;
+    
+    li{
+        display: inline-block;$pd-2width: 10ppx;
+        position: relative;
+        padding: $pd-1;
+        font-optical-sizing: $fte-2;
+    
+    }
+
+    a{
+        color: $fuente_bco;
+        text-decoration: none;
+        font-size: $fte-2;      
+    }
+}
+
+body{
+        font-family: 'Akshar', sans-serif;
+        font-family: 'Fira Sans', sans-serif;
+        font-optical-sizing:$fte-1;
+        /* padding: $pd-3; */
+    }
+
+    h1{
+        font-size: $fte-5;
+        padding: $pd-2;
+    }
+
+    h2{
+        font-size: $fte-4;
+        padding: $pd-2;
+    }
+
+    
